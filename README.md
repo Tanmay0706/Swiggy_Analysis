@@ -69,25 +69,32 @@ This dashboard enables users to explore the business through interactive visuali
 ## 📷 Dashboard Preview
 
 ### Overview
-<img width="1090" height="620" alt="Overview" src="PASTE_IMAGE_LINK_HERE" />
+<img width="1090" height="620" alt="Overview" src="<img width="1127" height="663" alt="Screenshot 2026-11-24 122645" src="https://github.com/user-attachments/assets/98c5a3be-bb8c-47ff-887d-d8a50e390b25" />
+" />
 
 ### Insights
-<img width="1090" height="620" alt="Insights" src="PASTE_IMAGE_LINK_HERE" />
+<img width="1090" height="620" alt="Insights" src="<img width="1127" height="662" alt="Screenshot 2026-11-24 122714" src="https://github.com/user-attachments/assets/32848238-c88f-45bb-8d4d-9fd44a848eeb" />
+" />
 
 ### Revenue
-<img width="1090" height="620" alt="Revenue" src="PASTE_IMAGE_LINK_HERE" />
+<img width="1090" height="620" alt="Revenue" src="<img width="1128" height="653" alt="Screenshot 2026-11-24 122743" src="https://github.com/user-attachments/assets/6921ea8f-a67d-4c19-a237-ba4edcbf7063" />
+" />
 
 ### Customers
-<img width="1090" height="620" alt="Customers" src="PASTE_IMAGE_LINK_HERE" />
+<img width="1090" height="620" alt="Customers" src="<img width="1122" height="657" alt="Screenshot 2026-11-24 122806" src="https://github.com/user-attachments/assets/c7eb8772-cec7-4131-b8f2-94753837c5ec" />
+" />
 
 ### Menu
-<img width="1090" height="620" alt="Menu" src="PASTE_IMAGE_LINK_HERE" />
+<img width="1090" height="620" alt="Menu" src="<img width="1125" height="660" alt="Screenshot 2026-11-24 122835" src="https://github.com/user-attachments/assets/0492a6b0-0fd3-40bb-a064-8c1a88a06996" />
+" />
 
 ### Delivery
-<img width="1090" height="620" alt="Delivery" src="PASTE_IMAGE_LINK_HERE" />
+<img width="1090" height="620" alt="Delivery" src="<img width="1130" height="660" alt="Screenshot 2026-11-24 122901" src="https://github.com/user-attachments/assets/b12faee0-0d20-4596-ada4-cb0549298389" />
+" />
 
 ### Demand
-<img width="1090" height="620" alt="Demand" src="PASTE_IMAGE_LINK_HERE" />
+<img width="1090" height="620" alt="Demand" src="<img width="1121" height="657" alt="Screenshot 2026-11-24 122924" src="https://github.com/user-attachments/assets/c3bd1c33-901d-4522-800d-56941163e03f" />
+" />
 
 ---
 
