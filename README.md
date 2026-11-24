@@ -104,18 +104,32 @@ This dashboard enables users to explore the business through interactive visuali
 
 ## 🗂️ Data Model
 
-The model follows a **star schema** with one fact table and multiple dimension tables:
+The model follows a **multi-fact (galaxy) schema**: 6 fact tables share 9 conformed dimension tables, so orders, delivery, payments, reviews and financials can all be sliced by the same City, Date, Service and Customer filters.
 
-- **Fact_Orders** – order-level data (order hour, delivery time)
-- **Dim_Date** – date, year, quarter, month-year, day name
-- **Dim_City** – city names
-- **Dim_Service** – service type
-- **Dim_PaymentMode** – payment modes
-- **Dim_Menu** – cuisines
-- **Dim_Restaurant** – restaurant details
-- **_Measures** – dedicated table for all DAX measures
+### 📷 Data Model Preview
+<img width="1010" height="657" alt="Screenshot 2026-11-24 135054" src="https://github.com/user-attachments/assets/7513aa4d-abb5-4a0f-bb0b-33c2f5163327" />
 
----
+### Fact Tables
+- **Fact_Orders** – order-level data (customer, restaurant, rider, coupon, fees, discount, delivery time, order date/hour)
+- **Fact_OrderItems** – item-level details (quantity, selling price, GST, discount)
+- **Fact_Delivery** – delivery operations (delay minutes, distance, traffic, weather, pickup/delivered time)
+- **Fact_Payments** – payment details (gateway, status, refund and cashback amount)
+- **Fact_Financials** – profitability (net revenue, commission, restaurant payout, fees)
+- **Fact_Reviews** – customer feedback (food rating, delivery rating, sentiment)
+
+### Dimension Tables
+- **Dim_Customer** – age group, gender, occupation, income group, premium member
+- **Dim_Restaurant** – cuisine, area, rating, partner type, price range
+- **Dim_DeliveryPartner** – rider experience, rating, vehicle type
+- **Dim_City** – city and population density
+- **Dim_Coupon** – campaign, discount %, validity
+- **Dim_Date** – day, month, quarter, season, festival, holiday
+- **Dim_Service** – service type, packaging and platform fee
+- **Dim_Menu** – item, category, cuisine, veg/non-veg, price
+- **Dim_PaymentMode** – payment mode
+
+### Measures
+- **_Measures** – dedicated table that stores all DAX measures
 
 ## 📊 Dashboard Insights
 
